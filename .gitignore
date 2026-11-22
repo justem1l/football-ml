@@ -1,12 +1,20 @@
-venv/
+# Python
 .venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.env
 
+#Pychache
 __pycache__/
 *.pyc
 *.mp4
 *.avi
 *.mov
 *.pt
+
+#Editor and OS
 runs/
 .DS_Store
 .vscode/
